@@ -1,0 +1,35 @@
+=== Sintetico (mdlon) | Naive Bayes (default) | {} (Hold-Out 30%) ===
+[[171 129]
+ [124 176]]
+
+=== Sintetico (mdlon) | Naive Bayes (var_smoothing ajustado) | {'var_smoothing': 1e-12} (Hold-Out 30%) ===
+[[171 129]
+ [124 176]]
+
+=== Sintetico (mdlon) | SVM (default) | {'kernel': 'rbf', 'C': 1.0, 'gamma': 'scale'} (Hold-Out 30%) ===
+[[175 125]
+ [122 178]]
+
+=== Sintetico (mdlon) | SVM (mejor GridSearchCV) | {'C': 0.1, 'gamma': 'scale', 'kernel': 'rbf'} (Hold-Out 30%) ===
+[[187 113]
+ [127 173]]
+
+=== Benchmark (WineQT) | Naive Bayes (default) | {} (Hold-Out 30%) ===
+[[87 62  8]
+ [21 91 26]
+ [ 4 20 24]]
+
+=== Benchmark (WineQT) | Naive Bayes (var_smoothing ajustado) | {'var_smoothing': 1e-12} (Hold-Out 30%) ===
+[[87 62  8]
+ [21 91 26]
+ [ 4 20 24]]
+
+=== Benchmark (WineQT) | SVM (default) | {'kernel': 'rbf', 'C': 1.0, 'gamma': 'scale'} (Hold-Out 30%) ===
+[[122  32   3]
+ [ 41  87  10]
+ [  3  30  15]]
+
+=== Benchmark (WineQT) | SVM (mejor GridSearchCV) | {'C': 100, 'gamma': 0.01, 'kernel': 'rbf'} (Hold-Out 30%) ===
+[[118  35   4]
+ [ 40  84  14]
+ [  3  28  17]]

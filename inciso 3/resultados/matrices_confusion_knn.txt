@@ -1,0 +1,26 @@
+=== Sintetico (mdlon) | 1-NN | k=1, euclidean, uniform (Hold-Out 30%) ===
+[[176 124]
+ [161 139]]
+
+=== Sintetico (mdlon) | K-NN default (k=5) | k=5, euclidean, uniform (Hold-Out 30%) ===
+[[188 112]
+ [156 144]]
+
+=== Sintetico (mdlon) | K-NN mejor (CV en train) | k=31, manhattan, uniform (Hold-Out 30%) ===
+[[231  69]
+ [159 141]]
+
+=== Benchmark (WineQT) | 1-NN | k=1, euclidean, uniform (Hold-Out 30%) ===
+[[109  45   3]
+ [ 32  90  16]
+ [  8  12  28]]
+
+=== Benchmark (WineQT) | K-NN default (k=5) | k=5, euclidean, uniform (Hold-Out 30%) ===
+[[102  51   4]
+ [ 41  78  19]
+ [ 10  20  18]]
+
+=== Benchmark (WineQT) | K-NN mejor (CV en train) | k=31, euclidean, distance (Hold-Out 30%) ===
+[[109  45   3]
+ [ 32  93  13]
+ [  3  21  24]]

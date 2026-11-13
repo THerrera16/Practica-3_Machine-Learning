@@ -1,0 +1,57 @@
+dataset,parametros,kernel,C,gamma,degree,cv_acc_media,cv_acc_std,t_fit_medio_s,ranking
+Benchmark (WineQT),"{'C': 100, 'gamma': 0.01, 'kernel': 'rbf'}",rbf,100.0,0.01,,0.65,0.026516504294495518,0.05385513305664062,1
+Benchmark (WineQT),"{'C': 10, 'gamma': 'scale', 'kernel': 'rbf'}",rbf,10.0,scale,,0.6487499999999999,0.0527967802048572,0.04607720375061035,2
+Benchmark (WineQT),"{'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}",rbf,10.0,0.1,,0.6437499999999999,0.044546324203013674,0.04587745666503906,3
+Benchmark (WineQT),"{'C': 10, 'gamma': 0.01, 'kernel': 'rbf'}",rbf,10.0,0.01,,0.6424999999999998,0.03147419578003541,0.0345059871673584,4
+Benchmark (WineQT),"{'C': 100, 'gamma': 0.001, 'kernel': 'rbf'}",rbf,100.0,0.001,,0.6387499999999999,0.03921096785339531,0.036901330947875975,5
+Benchmark (WineQT),"{'C': 1, 'gamma': 'scale', 'kernel': 'rbf'}",rbf,1.0,scale,,0.63375,0.05370637764735211,0.036699104309082034,6
+Benchmark (WineQT),"{'C': 10, 'degree': 3, 'gamma': 'scale', 'kernel': 'poly'}",poly,10.0,scale,3.0,0.6300000000000001,0.044440972086577955,0.04866881370544433,7
+Benchmark (WineQT),"{'C': 1, 'kernel': 'linear'}",linear,1.0,,,0.6287499999999999,0.033680483963268705,0.037706422805786136,8
+Benchmark (WineQT),"{'C': 1, 'gamma': 0.1, 'kernel': 'rbf'}",rbf,1.0,0.1,,0.6275000000000001,0.05736396952791884,0.03410835266113281,9
+Benchmark (WineQT),"{'C': 0.1, 'kernel': 'linear'}",linear,0.1,,,0.625,0.03791437722025775,0.024113559722900392,10
+Benchmark (WineQT),"{'C': 10, 'kernel': 'linear'}",linear,10.0,,,0.625,0.03952847075210474,0.19048891067504883,10
+Benchmark (WineQT),"{'C': 100, 'gamma': 0.1, 'kernel': 'rbf'}",rbf,100.0,0.1,,0.61625,0.04914900812834377,0.09733414649963379,12
+Benchmark (WineQT),"{'C': 100, 'gamma': 'scale', 'kernel': 'rbf'}",rbf,100.0,scale,,0.615,0.04517327749898163,0.10053133964538574,13
+Benchmark (WineQT),"{'C': 1, 'degree': 3, 'gamma': 'scale', 'kernel': 'poly'}",poly,1.0,scale,3.0,0.6125,0.03137475099502785,0.034907054901123044,14
+Benchmark (WineQT),"{'C': 10, 'gamma': 0.001, 'kernel': 'rbf'}",rbf,10.0,0.001,,0.59875,0.024811791551599,0.03291187286376953,15
+Benchmark (WineQT),"{'C': 1, 'gamma': 0.01, 'kernel': 'rbf'}",rbf,1.0,0.01,,0.5987499999999999,0.024811791551599006,0.03251395225524902,16
+Benchmark (WineQT),"{'C': 0.1, 'gamma': 'scale', 'kernel': 'rbf'}",rbf,0.1,scale,,0.5925,0.018708286933869684,0.038100576400756835,17
+Benchmark (WineQT),"{'C': 0.1, 'gamma': 0.1, 'kernel': 'rbf'}",rbf,0.1,0.1,,0.5912499999999999,0.019605483926697646,0.035504913330078124,18
+Benchmark (WineQT),"{'C': 0.1, 'gamma': 'scale', 'kernel': 'sigmoid'}",sigmoid,0.1,scale,,0.5787500000000001,0.018371173070873822,0.036702299118041994,19
+Benchmark (WineQT),"{'C': 1, 'gamma': 0.001, 'kernel': 'rbf'}",rbf,1.0,0.001,,0.5549999999999999,0.023848480035423638,0.03650226593017578,20
+Benchmark (WineQT),"{'C': 10, 'degree': 2, 'gamma': 'scale', 'kernel': 'poly'}",poly,10.0,scale,2.0,0.55375,0.04551785364008283,0.05883979797363281,21
+Benchmark (WineQT),"{'C': 1, 'gamma': 'scale', 'kernel': 'sigmoid'}",sigmoid,1.0,scale,,0.54875,0.030465144017384854,0.03111710548400879,22
+Benchmark (WineQT),"{'C': 1, 'degree': 2, 'gamma': 'scale', 'kernel': 'poly'}",poly,1.0,scale,2.0,0.5387500000000001,0.030465144017384847,0.03271198272705078,23
+Benchmark (WineQT),"{'C': 0.1, 'degree': 3, 'gamma': 'scale', 'kernel': 'poly'}",poly,0.1,scale,3.0,0.5287499999999999,0.02358495283014152,0.03131446838378906,24
+Benchmark (WineQT),"{'C': 0.1, 'gamma': 0.01, 'kernel': 'rbf'}",rbf,0.1,0.01,,0.52125,0.014577379737113247,0.036501407623291016,25
+Benchmark (WineQT),"{'C': 10, 'gamma': 'scale', 'kernel': 'sigmoid'}",sigmoid,10.0,scale,,0.5175,0.05539629951540086,0.025331783294677734,26
+Benchmark (WineQT),"{'C': 0.1, 'degree': 2, 'gamma': 'scale', 'kernel': 'poly'}",poly,0.1,scale,2.0,0.47375,0.02543373743671975,0.029721498489379883,27
+Benchmark (WineQT),"{'C': 0.1, 'gamma': 0.001, 'kernel': 'rbf'}",rbf,0.1,0.001,,0.45625,0.0,0.03670125007629395,28
+Sintetico (mdlon),"{'C': 0.1, 'gamma': 'scale', 'kernel': 'rbf'}",rbf,0.1,scale,,0.5921428571428572,0.027423362600646366,0.6261272430419922,1
+Sintetico (mdlon),"{'C': 0.1, 'gamma': 0.001, 'kernel': 'rbf'}",rbf,0.1,0.001,,0.5878571428571429,0.034001800672605435,0.7108995914459229,2
+Sintetico (mdlon),"{'C': 10, 'degree': 3, 'gamma': 'scale', 'kernel': 'poly'}",poly,10.0,scale,3.0,0.5857142857142857,0.027847983842311328,0.8800478458404541,3
+Sintetico (mdlon),"{'C': 1, 'gamma': 0.01, 'kernel': 'rbf'}",rbf,1.0,0.01,,0.5842857142857143,0.026496052844273456,0.7759260654449462,4
+Sintetico (mdlon),"{'C': 1, 'degree': 3, 'gamma': 'scale', 'kernel': 'poly'}",poly,1.0,scale,3.0,0.5842857142857143,0.025614887252915886,0.9783870220184326,4
+Sintetico (mdlon),"{'C': 10, 'gamma': 0.01, 'kernel': 'rbf'}",rbf,10.0,0.01,,0.5835714285714285,0.02659215781283757,0.8289838314056397,6
+Sintetico (mdlon),"{'C': 100, 'gamma': 0.01, 'kernel': 'rbf'}",rbf,100.0,0.01,,0.5835714285714285,0.02659215781283757,0.9763908386230469,6
+Sintetico (mdlon),"{'C': 1, 'degree': 2, 'gamma': 'scale', 'kernel': 'poly'}",poly,1.0,scale,2.0,0.5807142857142857,0.025911938781738635,0.9586395740509033,8
+Sintetico (mdlon),"{'C': 0.1, 'gamma': 'scale', 'kernel': 'sigmoid'}",sigmoid,0.1,scale,,0.5800000000000001,0.03150963571444682,0.9554454803466796,9
+Sintetico (mdlon),"{'C': 0.1, 'gamma': 0.01, 'kernel': 'rbf'}",rbf,0.1,0.01,,0.5771428571428572,0.03980821369455079,0.7160872936248779,10
+Sintetico (mdlon),"{'C': 1, 'gamma': 'scale', 'kernel': 'rbf'}",rbf,1.0,scale,,0.575,0.01969149821727176,1.6846982002258302,11
+Sintetico (mdlon),"{'C': 10, 'degree': 2, 'gamma': 'scale', 'kernel': 'poly'}",poly,10.0,scale,2.0,0.5700000000000001,0.021969366427471024,0.9614285945892334,12
+Sintetico (mdlon),"{'C': 1, 'gamma': 0.001, 'kernel': 'rbf'}",rbf,1.0,0.001,,0.5664285714285715,0.018979043222266314,0.710500955581665,13
+Sintetico (mdlon),"{'C': 10, 'gamma': 'scale', 'kernel': 'rbf'}",rbf,10.0,scale,,0.5542857142857143,0.012037356818823374,0.9887568950653076,14
+Sintetico (mdlon),"{'C': 100, 'gamma': 'scale', 'kernel': 'rbf'}",rbf,100.0,scale,,0.5542857142857143,0.012037356818823374,0.8742589473724365,14
+Sintetico (mdlon),"{'C': 0.1, 'gamma': 0.1, 'kernel': 'rbf'}",rbf,0.1,0.1,,0.5514285714285714,0.029416086117105694,0.7098986148834229,16
+Sintetico (mdlon),"{'C': 0.1, 'degree': 2, 'gamma': 'scale', 'kernel': 'poly'}",poly,0.1,scale,2.0,0.5514285714285714,0.013093073414159538,0.9183455467224121,16
+Sintetico (mdlon),"{'C': 1, 'gamma': 'scale', 'kernel': 'sigmoid'}",sigmoid,1.0,scale,,0.5457142857142857,0.01265717510476383,0.8533187866210937,18
+Sintetico (mdlon),"{'C': 10, 'gamma': 0.001, 'kernel': 'rbf'}",rbf,10.0,0.001,,0.5442857142857143,0.009202927661946525,0.9311119079589844,19
+Sintetico (mdlon),"{'C': 100, 'gamma': 0.001, 'kernel': 'rbf'}",rbf,100.0,0.001,,0.5442857142857143,0.009202927661946525,0.9751943111419678,19
+Sintetico (mdlon),"{'C': 10, 'gamma': 'scale', 'kernel': 'sigmoid'}",sigmoid,10.0,scale,,0.5371428571428571,0.03118411421849009,0.8662848472595215,21
+Sintetico (mdlon),"{'C': 0.1, 'kernel': 'linear'}",linear,0.1,,,0.525,0.023473823893078546,4.294522523880005,22
+Sintetico (mdlon),"{'C': 10, 'kernel': 'linear'}",linear,10.0,,,0.5242857142857142,0.008268454930564453,299.19392561912537,23
+Sintetico (mdlon),"{'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}",rbf,10.0,0.1,,0.5178571428571428,0.009845749108635886,0.8575078010559082,24
+Sintetico (mdlon),"{'C': 100, 'gamma': 0.1, 'kernel': 'rbf'}",rbf,100.0,0.1,,0.5178571428571428,0.009845749108635886,0.9047810077667237,24
+Sintetico (mdlon),"{'C': 1, 'kernel': 'linear'}",linear,1.0,,,0.5164285714285713,0.008017837257372745,38.24398288726807,26
+Sintetico (mdlon),"{'C': 0.1, 'degree': 3, 'gamma': 'scale', 'kernel': 'poly'}",poly,0.1,scale,3.0,0.5042857142857142,0.008571428571428586,0.9390905380249024,27
+Sintetico (mdlon),"{'C': 1, 'gamma': 0.1, 'kernel': 'rbf'}",rbf,1.0,0.1,,0.5007142857142857,0.0041649656391752,0.9113646984100342,28

@@ -1,0 +1,7 @@
+dataset,modelo,k,metrica,pesos,holdout_acc,holdout_f1_macro,cv5_acc_media,cv5_acc_std
+Sintetico (mdlon),1-NN,1,euclidean,uniform,0.525,0.5231867853029994,0.5359999999999999,0.019659603251337497
+Sintetico (mdlon),K-NN default (k=5),5,euclidean,uniform,0.5533333333333333,0.5509182715939049,0.549,0.018000000000000002
+Sintetico (mdlon),K-NN mejor (CV en train),31,manhattan,uniform,0.62,0.6112531969309463,0.611,0.03128897569432401
+Benchmark (WineQT),1-NN,1,euclidean,uniform,0.6618075801749271,0.6444903107441807,0.636007048188156,0.02330909456201077
+Benchmark (WineQT),K-NN default (k=5),5,euclidean,uniform,0.577259475218659,0.5353709683733818,0.5870336321152226,0.03368406743844733
+Benchmark (WineQT),K-NN mejor (CV en train),31,euclidean,distance,0.6588921282798834,0.6319898878038414,0.6824101739063817,0.0206928716788194
