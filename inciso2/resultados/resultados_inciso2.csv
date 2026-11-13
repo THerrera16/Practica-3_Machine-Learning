@@ -1,0 +1,25 @@
+dataset,modelo,preprocesamiento,validacion,exactitud,desv_exactitud,f1_macro,t_fit_s,t_pred_s
+Sintético (mdlon),Distancia Mínima,sin escalar,Hold Out 70/30,0.591667,,0.591529,0.002895,0.004083
+Sintético (mdlon),Distancia Mínima,sin escalar,K-Fold (k=5),0.598500,0.019786,0.598195,0.003272,0.001538
+Sintético (mdlon),Distancia Mínima,z-score,Hold Out 70/30,0.580000,,0.579533,0.003104,0.001890
+Sintético (mdlon),Distancia Mínima,z-score,K-Fold (k=5),0.590500,0.033593,0.590160,0.003997,0.001565
+Sintético (mdlon),1-NN,sin escalar,Hold Out 70/30,0.663333,,0.663030,0.000004,0.030704
+Sintético (mdlon),1-NN,sin escalar,K-Fold (k=5),0.634500,0.016837,0.634160,0.000006,0.026673
+Sintético (mdlon),1-NN,z-score,Hold Out 70/30,0.525000,,0.523187,0.000007,0.041417
+Sintético (mdlon),1-NN,z-score,K-Fold (k=5),0.536000,0.019660,0.535134,0.000020,0.085487
+Wine (6 clases),Distancia Mínima,sin escalar,Hold Out 70/30,0.236152,,0.128870,0.000409,0.000185
+Wine (6 clases),Distancia Mínima,sin escalar,K-Fold (k=5),0.238010,0.026138,0.122513,0.000402,0.000157
+Wine (6 clases),Distancia Mínima,z-score,Hold Out 70/30,0.361516,,0.240399,0.000305,0.000148
+Wine (6 clases),Distancia Mínima,z-score,K-Fold (k=5),0.348211,0.032639,0.226100,0.000513,0.000204
+Wine (6 clases),1-NN,sin escalar,Hold Out 70/30,0.545190,,0.327034,0.000005,0.013355
+Wine (6 clases),1-NN,sin escalar,K-Fold (k=5),0.559944,0.007255,0.305370,0.000007,0.008250
+Wine (6 clases),1-NN,z-score,Hold Out 70/30,0.615160,,0.347496,0.000006,0.006560
+Wine (6 clases),1-NN,z-score,K-Fold (k=5),0.594913,0.041937,0.329953,0.000005,0.005761
+Wine (3 clases),Distancia Mínima,sin escalar,Hold Out 70/30,0.335277,,0.318049,0.000272,0.000172
+Wine (3 clases),Distancia Mínima,sin escalar,K-Fold (k=5),0.365751,0.025668,0.338167,0.000234,0.000107
+Wine (3 clases),Distancia Mínima,z-score,Hold Out 70/30,0.586006,,0.542322,0.000224,0.000124
+Wine (3 clases),Distancia Mínima,z-score,K-Fold (k=5),0.595848,0.039614,0.571123,0.000327,0.000133
+Wine (3 clases),1-NN,sin escalar,Hold Out 70/30,0.606414,,0.596539,0.000005,0.007031
+Wine (3 clases),1-NN,sin escalar,K-Fold (k=5),0.594917,0.042611,0.589212,0.000006,0.006031
+Wine (3 clases),1-NN,z-score,Hold Out 70/30,0.661808,,0.644490,0.000004,0.006425
+Wine (3 clases),1-NN,z-score,K-Fold (k=5),0.636007,0.023309,0.625707,0.000007,0.005103
