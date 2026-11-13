@@ -1,0 +1,35 @@
+=== Sintetico (mdlon) | MLP (default) | {'hidden_layer_sizes': (100,), 'activation': 'relu', 'alpha': 0.0001, 'learning_rate_init': 0.001, 'max_iter': 200} (Hold-Out 30%) ===
+[[171 129]
+ [135 165]]
+
+=== Sintetico (mdlon) | MLP (prueba 1: profunda tanh) | {'hidden_layer_sizes': (128, 64, 32), 'activation': 'tanh', 'alpha': 0.001, 'learning_rate_init': 0.001, 'max_iter': 1000, 'early_stopping': True} (Hold-Out 30%) ===
+[[161 139]
+ [124 176]]
+
+=== Sintetico (mdlon) | MLP (prueba 2: ancha relu L2) | {'hidden_layer_sizes': (200, 100), 'activation': 'relu', 'alpha': 0.05, 'learning_rate_init': 0.005, 'max_iter': 1000, 'early_stopping': True} (Hold-Out 30%) ===
+[[156 144]
+ [125 175]]
+
+=== Sintetico (mdlon) | MLP (mejor GridSearchCV) | {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (100,), 'learning_rate_init': 0.001} (Hold-Out 30%) ===
+[[180 120]
+ [156 144]]
+
+=== Benchmark (WineQT) | MLP (default) | {'hidden_layer_sizes': (100,), 'activation': 'relu', 'alpha': 0.0001, 'learning_rate_init': 0.001, 'max_iter': 200} (Hold-Out 30%) ===
+[[116  39   2]
+ [ 37  85  16]
+ [  1  26  21]]
+
+=== Benchmark (WineQT) | MLP (prueba 1: profunda tanh) | {'hidden_layer_sizes': (128, 64, 32), 'activation': 'tanh', 'alpha': 0.001, 'learning_rate_init': 0.001, 'max_iter': 1000, 'early_stopping': True} (Hold-Out 30%) ===
+[[126  28   3]
+ [ 43  82  13]
+ [  2  30  16]]
+
+=== Benchmark (WineQT) | MLP (prueba 2: ancha relu L2) | {'hidden_layer_sizes': (200, 100), 'activation': 'relu', 'alpha': 0.05, 'learning_rate_init': 0.005, 'max_iter': 1000, 'early_stopping': True} (Hold-Out 30%) ===
+[[110  44   3]
+ [ 33  89  16]
+ [  3  25  20]]
+
+=== Benchmark (WineQT) | MLP (mejor GridSearchCV) | {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (128, 64, 32), 'learning_rate_init': 0.01} (Hold-Out 30%) ===
+[[102  54   1]
+ [ 29  93  16]
+ [  4  21  23]]

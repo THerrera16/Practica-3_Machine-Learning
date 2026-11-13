@@ -1,0 +1,91 @@
+=== Sintetico (mdlon) | MLP (default) | {'hidden_layer_sizes': (100,), 'activation': 'relu', 'alpha': 0.0001, 'learning_rate_init': 0.001, 'max_iter': 200} ===
+              precision    recall  f1-score   support
+
+          -1       0.56      0.57      0.56       300
+           1       0.56      0.55      0.56       300
+
+    accuracy                           0.56       600
+   macro avg       0.56      0.56      0.56       600
+weighted avg       0.56      0.56      0.56       600
+
+
+=== Sintetico (mdlon) | MLP (prueba 1: profunda tanh) | {'hidden_layer_sizes': (128, 64, 32), 'activation': 'tanh', 'alpha': 0.001, 'learning_rate_init': 0.001, 'max_iter': 1000, 'early_stopping': True} ===
+              precision    recall  f1-score   support
+
+          -1       0.56      0.54      0.55       300
+           1       0.56      0.59      0.57       300
+
+    accuracy                           0.56       600
+   macro avg       0.56      0.56      0.56       600
+weighted avg       0.56      0.56      0.56       600
+
+
+=== Sintetico (mdlon) | MLP (prueba 2: ancha relu L2) | {'hidden_layer_sizes': (200, 100), 'activation': 'relu', 'alpha': 0.05, 'learning_rate_init': 0.005, 'max_iter': 1000, 'early_stopping': True} ===
+              precision    recall  f1-score   support
+
+          -1       0.56      0.52      0.54       300
+           1       0.55      0.58      0.57       300
+
+    accuracy                           0.55       600
+   macro avg       0.55      0.55      0.55       600
+weighted avg       0.55      0.55      0.55       600
+
+
+=== Sintetico (mdlon) | MLP (mejor GridSearchCV) | {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (100,), 'learning_rate_init': 0.001} ===
+              precision    recall  f1-score   support
+
+          -1       0.54      0.60      0.57       300
+           1       0.55      0.48      0.51       300
+
+    accuracy                           0.54       600
+   macro avg       0.54      0.54      0.54       600
+weighted avg       0.54      0.54      0.54       600
+
+
+=== Benchmark (WineQT) | MLP (default) | {'hidden_layer_sizes': (100,), 'activation': 'relu', 'alpha': 0.0001, 'learning_rate_init': 0.001, 'max_iter': 200} ===
+              precision    recall  f1-score   support
+
+           0       0.75      0.74      0.75       157
+           1       0.57      0.62      0.59       138
+           2       0.54      0.44      0.48        48
+
+    accuracy                           0.65       343
+   macro avg       0.62      0.60      0.61       343
+weighted avg       0.65      0.65      0.65       343
+
+
+=== Benchmark (WineQT) | MLP (prueba 1: profunda tanh) | {'hidden_layer_sizes': (128, 64, 32), 'activation': 'tanh', 'alpha': 0.001, 'learning_rate_init': 0.001, 'max_iter': 1000, 'early_stopping': True} ===
+              precision    recall  f1-score   support
+
+           0       0.74      0.80      0.77       157
+           1       0.59      0.59      0.59       138
+           2       0.50      0.33      0.40        48
+
+    accuracy                           0.65       343
+   macro avg       0.61      0.58      0.59       343
+weighted avg       0.64      0.65      0.64       343
+
+
+=== Benchmark (WineQT) | MLP (prueba 2: ancha relu L2) | {'hidden_layer_sizes': (200, 100), 'activation': 'relu', 'alpha': 0.05, 'learning_rate_init': 0.005, 'max_iter': 1000, 'early_stopping': True} ===
+              precision    recall  f1-score   support
+
+           0       0.75      0.70      0.73       157
+           1       0.56      0.64      0.60       138
+           2       0.51      0.42      0.46        48
+
+    accuracy                           0.64       343
+   macro avg       0.61      0.59      0.60       343
+weighted avg       0.64      0.64      0.64       343
+
+
+=== Benchmark (WineQT) | MLP (mejor GridSearchCV) | {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (128, 64, 32), 'learning_rate_init': 0.01} ===
+              precision    recall  f1-score   support
+
+           0       0.76      0.65      0.70       157
+           1       0.55      0.67      0.61       138
+           2       0.57      0.48      0.52        48
+
+    accuracy                           0.64       343
+   macro avg       0.63      0.60      0.61       343
+weighted avg       0.65      0.64      0.64       343
+
