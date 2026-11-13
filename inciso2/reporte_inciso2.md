@@ -33,17 +33,16 @@ n = muestras de entrenamiento, m = muestras a clasificar, d = rasgos, c = clases
 
 ## Comparativa entre los seis modelos
 
-Exactitud con K-Fold (k = 5). En Distancia Mínima y 1-NN se muestra "sin escalar / z-score". Las filas pendientes las llenan sus responsables con las mismas particiones.
+Exactitud con K-Fold (k = 5). En Distancia Mínima y 1-NN se muestra "sin escalar / z-score". K-NN, Naïve Bayes y SVM se evaluaron solo con z-score y solo con Wine agrupado en 3 clases, por lo que no hay dato para Wine (6 clases). La fila pendiente la llena su responsable con las mismas particiones.
 
 | Modelo | Sintético | Wine (6 clases) | Wine (3 clases) | Responsable |
 |---|---|---|---|---|
 | Distancia Mínima | 59.9 % / 59.1 % | 23.8 % / 34.8 % | 36.6 % / 59.6 % | Inciso 2 |
 | 1-NN | 63.4 % / 53.6 % | 56.0 % / 59.5 % | 59.5 % / 63.6 % | Inciso 2 |
-| K-NN | pendiente | pendiente | pendiente | Inciso 3 |
-| Naïve Bayes | pendiente | pendiente | pendiente | Inciso 4 |
-| SVM | pendiente | pendiente | pendiente | Inciso 4 |
+| K-NN (k = 31, mejor por CV) | 61.1 % | — | 68.2 % | Inciso 3 |
+| Naïve Bayes | 59.7 % | — | 60.4 % | Inciso 4 |
+| SVM (RBF, mejor GridSearchCV) | 59.3 % | — | 65.4 % | Inciso 4 |
 | MLP | pendiente | pendiente | pendiente | Inciso 5 |
-
 ## Conclusiones
 
 1. **1-NN supera a Distancia Mínima en los tres datasets** (con el mejor escalado de cada uno), pero tarda entre unas 17 y 56 veces más en predecir y necesita guardar todo el entrenamiento.
