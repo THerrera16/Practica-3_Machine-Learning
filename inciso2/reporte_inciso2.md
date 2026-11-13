@@ -39,9 +39,9 @@ Exactitud con K-Fold (k = 5). En Distancia Mínima y 1-NN se muestra "sin escala
 |---|---|---|---|---|
 | Distancia Mínima | 59.9 % / 59.1 % | 23.8 % / 34.8 % | 36.6 % / 59.6 % | Inciso 2 |
 | 1-NN | 63.4 % / 53.6 % | 56.0 % / 59.5 % | 59.5 % / 63.6 % | Inciso 2 |
-| K-NN (k = 31, mejor por CV) | 61.1 % | — | 68.2 % | Inciso 3 |
-| Naïve Bayes | 59.7 % | — | 60.4 % | Inciso 4 |
-| SVM (RBF, mejor GridSearchCV) | 59.3 % | — | 65.4 % | Inciso 4 |
+| K-NN (k = 31, mejor por CV) | 61.1 % | N/A | 68.2 % | Inciso 3 |
+| Naïve Bayes | 59.7 % | N/A | 60.4 % | Inciso 4 |
+| SVM (RBF, mejor GridSearchCV) | 59.3 % | N/A | 65.4 % | Inciso 4 |
 | MLP | pendiente | pendiente | pendiente | Inciso 5 |
 ## Conclusiones
 
