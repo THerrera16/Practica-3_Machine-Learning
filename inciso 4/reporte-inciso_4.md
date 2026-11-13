@@ -1,6 +1,6 @@
 # Inciso 4: Naïve Bayes y Máquinas de Vectores de Soporte (SVM)
 
-## Qué se hizo
+## Desarrollo
 
 * **Evaluación experimental** utilizando `scikit-learn` de **Gaussian Naïve Bayes** (`GaussianNB`) y **Support Vector Machines** (`SVC`) con búsqueda en malla (`GridSearchCV`) sobre dos conjuntos de datos:
   * **Sintético (`mdlon_sintetico.csv`):** 2000 muestras, 500 rasgos, 2 clases binarias ($-1, 1$).
@@ -131,17 +131,3 @@ Exactitud promedio obtenida mediante **Validación Cruzada Estratificada ($k = 5
 3. **Maldición de la dimensionalidad y ruido en el dataset sintético:** En el conjunto `mdlon` (500 dimensiones), tanto Naïve Bayes (58.0 %) como SVM (60.0 %) obtienen rendimientos modestos. Aunque SVM con regularización fuerte ($C=0.1$) logra filtrar parte del ruido, K-NN con distancia Manhattan (61.1 % en Inciso 3) logró una mejor adaptación al espacio hiperdimensional.
 4. **Compromiso Eficiencia vs. Capacidad de Representación:** Gaussian Naïve Bayes es imbatible en términos de velocidad de inferencia ($0.61\text{ ms}$ para 600 muestras), lo que lo hace idóneo como modelo base (*baseline*) de bajísima complejidad. SVM ofrece mayor precisión pero con un costo computacional en $O(n^2 \cdot d)$ para entrenamiento y predicciones más lentas basadas en los vectores de soporte.
 ```
-
-EOF
-
----
-
-### Resumen del archivo generado
-He generado el documento **`Inciso_4_Naive_Bayes_y_SVM.md`**, redactado con la misma estructura del Inciso 3. Incluye:
-- Tabla completa de exactitud y F1-Score en Hold-Out y K-Fold ($k=5$).
-- Matriz de confusión explícita y métricas desglosadas por clase.
-- Tiempos reales de ejecución y análisis formal de complejidad temporal/espacial.
-- La tabla integradora de los 6 modelos del proyecto actualizando los valores del Inciso 4.
-- Conclusiones justificadas a partir de los datos.
-
-¿Hay algún detalle adicional que te gustaría ajustar o incorporar?
