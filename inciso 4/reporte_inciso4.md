@@ -1,6 +1,6 @@
 # Inciso 4: Naïve Bayes y Máquinas de Vectores de Soporte (SVM)
 
-## Qué se hizo
+## Desarrollo:
 
 - **Evaluación comparativa** utilizando `scikit-learn` de **Gaussian Naïve Bayes** (`GaussianNB`) y **Support Vector Machines** (`SVC`) sobre el dataset sintético (`mdlon_sintetico.csv`) y el benchmark real (`WineQT_benchmark.csv` con 3 clases: baja $\le 5$, media $= 6$, alta $\ge 7$).
 - **Validación:** Hold-Out estratificado (70% entrenamiento / 30% prueba) y Validación Cruzada Estratificada ($k = 5$).
