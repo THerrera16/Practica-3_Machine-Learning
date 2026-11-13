@@ -1,6 +1,6 @@
 # Inciso 3: K-Nearest Neighbors (K-NN desde cero)
 
-## Qué se hizo
+## Desarollo
 
 * **Implementación desde cero** (solo NumPy) de **K-NN** (`KNNDesdeCero`) con distancia euclidiana (vectorizada mediante expansión algebraica) y distancia Manhattan (calculada por bloques de ~64 MB para optimizar memoria), además de votación simple (`uniform`) y ponderada por distancia inversa (`distance`, $w = 1/d$). Los resultados coinciden al 100 % con `KNeighborsClassifier` de `scikit-learn` (usado únicamente para verificación).
 * **Datasets:** Sintético (`mdlon_sintetico.csv`, 2000 muestras, 500 rasgos, 2 clases) y Benchmark (`WineQT_benchmark.csv`, 1143 muestras, 11 rasgos, agrupado en 3 clases: baja $\le 5$, media $= 6$, alta $\ge 7$).
